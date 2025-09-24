@@ -1,0 +1,39 @@
+
+EEG Eye State - Model Comparison Summary
+----------------------------------------
+Random Forest Accuracy: 0.931
+Random Forest Classification Report:
+              precision    recall  f1-score   support
+
+           0      0.920     0.958     0.938      1651
+           1      0.945     0.897     0.921      1345
+
+    accuracy                          0.931      2996
+   macro avg      0.932     0.927     0.929      2996
+weighted avg      0.931     0.931     0.930      2996
+
+
+SVM (RBF) Accuracy: 0.635
+SVM Classification Report:
+              precision    recall  f1-score   support
+
+           0      0.614     0.909     0.733      1651
+           1      0.727     0.297     0.422      1345
+
+    accuracy                          0.635      2996
+   macro avg      0.670     0.603     0.577      2996
+weighted avg      0.665     0.635     0.593      2996
+
+
+Top RF feature importances (channel : importance):
+
+  O1 : 0.1198
+  P7 : 0.1045
+  F7 : 0.0912
+  F8 : 0.0803
+  AF3 : 0.0794
+  AF4 : 0.0765
+  F4 : 0.0612
+  FC5 : 0.0610
+  FC6 : 0.0602
+  T8 : 0.0583
